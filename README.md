@@ -5,12 +5,13 @@
 
 This guide shows How to select and design the Autonomous AI Agent in OpenClaw using **Free Local AI Models on Ollama**
 
-No expensive APIs.\
-No monolithic supermodel.\
+No expensive APIs.
+No monolithic supermodel.
 Just proper role assignment.
 
 > Checkout the video version here: 
 
+[![Watch the video](https://img.youtube.com/vi/8aOEwyNEzjY/maxresdefault.jpg)](https://www.youtube.com/watch?v=8aOEwyNEzjY)
 ------------------------------------------------------------------------
 
 # Core Principle
@@ -26,9 +27,9 @@ They are layered stacks with:
 
 # The Four Core Roles of an Autonomous Agent
 
-1.  Planner\
-2.  Tool-Using Agent\
-3.  Execution Agent\
+1.  Planner
+2.  Tool-Using Agent
+3.  Execution Agent
 4.  Reflection Layer
 
 ------------------------------------------------------------------------
@@ -37,8 +38,12 @@ They are layered stacks with:
 
 **Purpose:** Convert high-level goals into actionable steps.
 
-Responsibilities: - Decompose goals - Identify dependencies - Sequence
-tool invocations - Define priorities - Maintain strategic coherence
+Responsibilities: 
+- Decompose goals 
+- Identify dependencies 
+- Sequence tool invocations 
+- Define priorities 
+- Maintain strategic coherence
 
 ------------------------------------------------------------------------
 
@@ -47,8 +52,11 @@ tool invocations - Define priorities - Maintain strategic coherence
 **Purpose:** Convert reasoning into precise machine-readable execution
 instructions.
 
-Responsibilities: - Generate valid JSON - Format tool calls - Provide
-correct arguments - Maintain strict output discipline
+Responsibilities: 
+- Generate valid JSON 
+- Format tool calls 
+- Provide correct arguments 
+- Maintain strict output discipline
 
 ------------------------------------------------------------------------
 
@@ -56,8 +64,12 @@ correct arguments - Maintain strict output discipline
 
 **Purpose:** Interact with real systems.
 
-Responsibilities: - Read logs - Fix errors - Generate shell commands -
-Edit files - Modify code
+Responsibilities: 
+- Read logs 
+- Fix errors 
+- Generate shell commands 
+- Edit files 
+- Modify code
 
 ------------------------------------------------------------------------
 
@@ -65,8 +77,12 @@ Edit files - Modify code
 
 **Purpose:** Convert execution outcomes into structured learning.
 
-Responsibilities: - Evaluate plan vs outcome - Identify failure points -
-Summarize logs - Extract lessons - Update memory
+Responsibilities: 
+- Evaluate plan vs outcome 
+- Identify failure points 
+- Summarize logs 
+- Extract lessons 
+- Update memory
 
 ------------------------------------------------------------------------
 
